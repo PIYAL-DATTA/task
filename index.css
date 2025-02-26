@@ -1,0 +1,439 @@
+/* Montserrat */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/* Lato */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.navbar {
+  width: 100wh;
+  height: 104px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  font-size: 16px;
+  font-weight: 300;
+  color: black;
+  padding-left: 104px;
+  padding-right: 104px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+/* Fonts */
+.montserrat {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.lato {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* END */
+
+.nav_button {
+  background-color: #ff6600;
+  color: #ffffff;
+  width: 165px;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+}
+
+/* ==================================================== */
+.bg {
+  background-image: url(img/startingbg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 720px;
+}
+
+.hero_container_avatar {
+  width: 529px;
+  height: 42px;
+  top: 208px;
+  margin-left: 112px;
+  display: flex;
+  align-items: center;
+}
+.image {
+  position: absolute;
+}
+
+.image:nth-child(2) {
+  left: 143px; /* 31px Gap */
+}
+
+.image:nth-child(3) {
+  left: 174px;
+}
+
+.image:nth-child(4) {
+  left: 205px;
+}
+.hero_btn {
+  width: 163px;
+  height: 33px;
+  background-color: #f5f7f9;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.hero_container_title {
+  width: 573px;
+  height: 154px;
+  margin-left: 112px;
+  display: flex;
+  align-items: center;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 120%;
+  color: #ffffff;
+}
+
+.hero_container_subtitle {
+  width: 474px;
+  height: 52px;
+  margin-left: 112px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 160%;
+  color: #ffffff;
+}
+
+/* ================================================== */
+
+.page_border {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 112px;
+  padding-right: 112px;
+}
+
+/* =================================================== */
+
+.sln_grid_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  background-color: #6b2b00;
+}
+
+.sln_title {
+  /* 48/Semi Bold */
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.sln_sobtitle {
+  /* 24/Semi Bold */
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0.5%;
+  text-align: left;
+}
+
+.sln_list {
+  /* 16/Medium */
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: 0.5%;
+  text-align: left;
+}
+
+/* ========================================= */
+.nc_save {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 16px 10px 16px;
+  border-radius: 4px;
+  background-color: #ff6600;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 112%;
+  letter-spacing: -2.5%;
+}
+
+.nc_text {
+  color: rgb(29, 31, 44);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0.5%;
+  text-align: left;
+}
+
+/* ====================================== */
+.rslt_pointer {
+  width: 36px;
+  height: 36px;
+  border-radius: 100px;
+  background: rgb(74, 76, 86);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rslt_title {
+  color: rgb(74, 76, 86);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0.5%;
+  text-align: left;
+  margin-bottom: 19px;
+}
+
+.rslt_subtitle {
+  color: rgb(74, 76, 86);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0.5%;
+  text-align: left;
+}
+
+.rslt_pointer_2 {
+  width: 36px;
+  height: 36px;
+  border-radius: 100px;
+  background: rgb(255, 102, 0);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rslt_title_2 {
+  color: #070707;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0.5%;
+  text-align: left;
+  margin-bottom: 19px;
+}
+
+.rslt_subtitle_2 {
+  color: #070707;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0.5%;
+  text-align: left;
+}
+
+/* ======================================== */
+.feedback_title {
+  color: rgb(22, 23, 33);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.feedback_subtitle {
+  color: rgb(74, 76, 86);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.5%;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.feedback_hrt_text {
+  color: rgb(29, 31, 44);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.feedback_time {
+  width: 145px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid rgb(195, 218, 214);
+  border-radius: 10px;
+  background: rgba(159, 203, 204, 0.23);
+  /* text */
+  color: rgb(1, 73, 85);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0.5%;
+}
+
+/* =========================== */
+
+.work_title {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0.5%;
+  text-align: left;
+}
+
+.work_p {
+  /* 14/Regular */
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.5%;
+  text-align: left;
+}
+
+.work_card {
+  padding: 24px;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.1);
+  margin-top: 16px;
+}
+.work_left_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Pushes content to the bottom */
+  height: 100%; /* Ensures it takes full height */
+}
+
+/* ======================================== */
+
+.Q_grid_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  grid-template-rows: auto; /* Auto height based on content */
+  gap: 10px; /* Spacing between grid items */
+}
+
+.Q_grid_item {
+  background-color: #ffffff;
+  padding: 16px 20px 16px 24px;
+  box-sizing: border-box;
+  border: 1px solid rgb(218, 221, 227);
+  border-radius: 12px;
+}
+
+/* Make the first item span both columns */
+.Q_grid_item:first-child {
+  grid-row: 1 / span 4; /* This makes it take up both columns */
+}
+
+.Q_title {
+  /* 24/Medium */
+  color: rgb(0, 14, 24);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 0.5%;
+  text-align: left;
+}
+
+.Q_text {
+  /* 16/Medium */
+  color: rgb(64, 76, 92);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: 0.5%;
+  text-align: left;
+}
+/* ================================================ */
+
+.plan_title {
+  /* 48/Semi Bold */
+  color: rgb(255, 102, 0);
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.offer_card {
+  box-sizing: border-box;
+  border: 1px solid rgb(210, 210, 213);
+  border-radius: 16px;
+  background-color: #fff0e6;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.offer_card:hover {
+  transform: scaleY(1.1);
+  background-color: #ff6600;
+  color: #fff;
+  border: 1px solid #ff6600;
+}
+
+.price {
+  /* 32/Bold */
+  color: rgb(29, 31, 44);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.discount {
+  /* 20/Semi Bold */
+  color: rgb(255, 102, 0);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 0.5%;
+  text-align: center;
+}
+
+.btn-custom {
+  color: #ff6600; /* Text color */
+  border-color: #ff6600; /* Outline color */
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+.btn-custom:hover {
+  background-color: #ff6600; /* Fill color on hover */
+  color: #fff; /* White text on hover */
+}
+
+.offer_txt {
+  /* 16/Regular */
+  color: rgb(71, 84, 103);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0.5%;
+  text-align: left;
+}
